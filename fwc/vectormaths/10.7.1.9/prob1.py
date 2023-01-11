@@ -35,15 +35,15 @@ x_QR_1= line_gen(Q,R_1)
  
  
 #Plotting all lines 
-plt.plot(x_QP[0,:],x_QP[1,:],label='$OA$') 
-plt.plot(x_QR[0,:],x_QR[1,:],label='$OB$') 
-plt.plot(x_QR_1[0,:],x_QR_1[1,:],label='$OC$') 
+plt.plot(x_QP[0,:],x_QP[1,:],label='$QP$') 
+plt.plot(x_QR[0,:],x_QR[1,:],label='$QR$') 
+plt.plot(x_QR_1[0,:],x_QR_1[1,:],label='$QR\u2081$') 
  
  
 #Labeling the coordinates 
 tri_coords = np.vstack((P,R,R_1,Q)).T 
 plt.scatter(tri_coords[0,:], tri_coords[1,:]) 
-vert_labels = ['P','R','R_1','Q'] 
+vert_labels = ['P','R','R\u2081','Q'] 
 for i, txt in enumerate(vert_labels): 
     plt.annotate(txt, # this is the text 
                  (tri_coords[0,i], tri_coords[1,i]), # this is the point to label 
@@ -62,6 +62,6 @@ plt.text(4,6,'   (4,6)')
 plt.text(-4,6,' (-4,6)')
 plt.text(0,1,'   (0,1)') 
 #if using termux
-#plt.savefig('/sdcard/FWC/vectormaths/figs/fig.pdf')
+plt.savefig('/sdcard/FWC/vectormaths/figs/fig.pdf')
 #else
 #plt.show()
