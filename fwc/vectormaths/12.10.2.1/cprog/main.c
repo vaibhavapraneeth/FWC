@@ -1,6 +1,9 @@
 /*Code by M.Vaibhava Praneeth (works on termux)
 Feb 15, 2023 
- This code will help to find the magnitude of 3 vectors A,B,C */
+ This code will help to find the magnitude of 3 vectors A,B,C 
+ 
+ https://github.com/vaibhavapraneeth/FWC/blob/main/LICENCE.md
+ */
 #include<stdio.h>       
 #include<stdlib.h>
 #include<math.h>
