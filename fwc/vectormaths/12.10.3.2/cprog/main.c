@@ -1,5 +1,8 @@
 /*Code by M.Vaibhava Praneeth (works on termux)(
-Feb 15, 2023*/
+Feb 15, 2023
+This is code is helpful to find the angle between two vectors
+This code is open source to all 
+https://github.com/vaibhavapraneeth/FWC/blob/main/LICENCE.md */
 #include<stdio.h>       
 #include<stdlib.h>
 #include<math.h>
