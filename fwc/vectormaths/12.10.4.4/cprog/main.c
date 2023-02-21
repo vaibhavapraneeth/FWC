@@ -1,5 +1,8 @@
-/*Code by M.Vaibhava Praneeth (works on termux)(
-Feb 15, 2023*/
+/*Code by M.Vaibhava Praneeth (works on termux)
+Feb 15, 2023
+This is code is for Prooving so 2(A X B) = (A-B) X (A+B)
+This code is open source to all 
+https://github.com/vaibhavapraneeth/FWC/blob/main/LICENCE.md */
 #include<stdio.h>       
 #include<stdlib.h>
 #include<math.h>
@@ -17,7 +20,6 @@ int main()
 	g=2*e;				// G= 2(A X B)
 	f= cross_prod(d,c);		// (A-B) X (A+B)
 	printf("\n the cross prod of a,b is %lf",e); // printing A X B
-	printf("\n the cross prod of c,d is %lf",f); // printing (A-B) X (A+B)
 	if(g==f)
 	{
 	 printf("\n so 2(A X B) = (A-B) X (A+B)");
