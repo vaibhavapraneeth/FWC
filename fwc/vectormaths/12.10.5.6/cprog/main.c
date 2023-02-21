@@ -1,5 +1,6 @@
 /*Code by M.Vaibhava Praneeth (works on termux)(
 Feb 21, 2023
+This cod ewill help to find a vector which is in direction of sum of two other vectors when the magnitude is given
 This code is open source to all 
 https://github.com/vaibhavapraneeth/FWC/blob/main/LICENCE.md */
 #include<stdio.h>       
